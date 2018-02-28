@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        fileExists 'index.html'
+        fileExists 'notthere.html'
       }
     }
   }
